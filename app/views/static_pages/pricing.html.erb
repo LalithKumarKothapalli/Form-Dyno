@@ -1,0 +1,55 @@
+<div class="container">
+  <h1 class="text-primary">Pricing</h1>
+  <h2 id="heading"> Save more by choosing YOUR plan </h2>
+
+  <hr>
+
+  <div class="row">
+    <div class="col-md-7 panel panel-info" style="background-color: #f9f9f9">
+      <h1 class="text-info">Basic Plan.<span class="text-muted"> Free</span><span class="icon-arrow-right"></span></h1>
+
+      <h2>This plan lets you create up to 5 forms for free !! Try it out.</h2>
+
+      <h2><%= link_to "Create a Dyno Now", task_fields_path, class: "btn btn-info btn-lg" %></h2>
+    </div>
+    <div class="col-md-5">
+      <%= image_tag("pricing/formfill4.png") %>
+    </div>
+  </div>
+
+  <br><br>
+  <hr>
+
+  <div class="row col-md-offset-1">
+    <div class="col-md-5">
+      <%= image_tag("pricing/formfill8.png") %>
+    </div>
+    <div class="col-md-7 panel panel-success" style="background-color: #f9f9f9">
+      <h1 class="text-success"><span class="icon-arrow-left"></span>Premium Plan.<span class="text-muted"> $7.99</span>
+      </h1>
+
+      <h2>Need More ? Dont worry. We have more. This plan lets you create up to 10 forms.</h2>
+
+      <h2><%= link_to "Create a Dyno Now", task_fields_path, class: "btn btn-success btn-lg" %></h2>
+    </div>
+  </div>
+
+  <br><br>
+  <hr>
+
+  <div class="row">
+    <div class="col-md-7 panel panel-warning" style="background-color: #f9f9f9">
+      <h1 class="text-warning">Unlimited
+        Plan.<span class="text-muted"> $19.99</span><span class="icon-arrow-right"></span></h1>
+
+      <h2>Still Need More ? Dont wait. Sign Up to create unlimited number of forms for your staff.</h2>
+
+      <h2><%= link_to "Create a Dyno Now", task_fields_path, class: "btn btn-warning btn-lg" %></h2>
+    </div>
+    <div class="col-md-5">
+      <%= image_tag("pricing/formfill3.png") %>
+    </div>
+  </div>
+
+  <hr>
+</div>
