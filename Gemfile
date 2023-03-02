@@ -9,7 +9,7 @@ gem 'faker', '1.1.2' # for storing fake users in our DB.
 gem 'will_paginate', '3.0.4'
 gem 'bootstrap-will_paginate', '0.0.9'
 gem 'omniauth'
-gem 'omniauth-facebook', '1.4.0'
+gem 'omniauth-facebook', '1.5.1'
 gem "paperclip", :git => "git://github.com/thoughtbot/paperclip.git"
 gem "mongo"
 gem 'mongoid', git: 'https://github.com/mongoid/mongoid.git'
